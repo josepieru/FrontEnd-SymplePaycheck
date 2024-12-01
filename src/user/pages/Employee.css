@@ -1,0 +1,60 @@
+.place-form {
+  position: relative;
+  list-style: none;
+  margin: 0 auto;
+  padding: 1rem;
+  width: 90%;
+  max-width: 40rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 6px;
+  background: white;
+  margin-top: 20px;
+}
+
+.paystub-item {
+  margin-bottom: 0.18rem; /* Add margin between each paystub item */
+}
+
+.paystub-item span {
+  display: inline-block;
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
+
+.paystub-item button {
+  padding: 0.35rem 1.2rem; 
+  background-color: #4079b5; 
+  color: white; 
+  border: none; 
+  border-radius: 4px; 
+  cursor: pointer; 
+}
+
+.paystub-item button:hover {
+  background-color: #0056b3; /* Add a hover effect */
+}
+
+.place-form button[type="submit"] {
+  padding: 0.5rem 1rem; /* Add padding */
+  background-color: #2d8541; /* Green background color */
+  color: white; /* Text color */
+  border: none; /* Remove default border */
+  border-radius: 4px; /* Add border radius */
+  cursor: pointer; /* Change cursor to pointer */
+  margin-top: 1rem; /* Add margin on top */
+}
+
+.place-form button[type="submit"]:hover {
+  background-color: #15752aba; /* Darker green hover effect */
+}
+
+.error-message {
+  color: red;
+  margin-top: 1rem;
+}
+
+.instruction-text {
+  margin-bottom: 1rem; /* Add margin below the instruction text */
+  font-size: 1rem; /* Adjust the font size */
+  color: #555; /* Add a subtle color */
+}

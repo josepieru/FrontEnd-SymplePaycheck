@@ -1,0 +1,11 @@
+
+.employee-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .employee-list li {
+    margin-bottom: 10px;
+  }
+  
